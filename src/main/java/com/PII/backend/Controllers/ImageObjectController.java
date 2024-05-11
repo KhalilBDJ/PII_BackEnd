@@ -1,7 +1,7 @@
-package Controllers;
+package com.PII.backend.Controllers;
 
-import Classes.ImageObject;
-import Repositories.ImageObjectRepository;
+import com.PII.backend.Classes.ImageObject;
+import com.PII.backend.Repositories.ImageObjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +12,9 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/images")
+@RequestMapping("/api/images/")
 public class ImageObjectController {
+
     @Autowired
     private ImageObjectRepository repository;
 

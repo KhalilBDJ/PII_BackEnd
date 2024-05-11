@@ -1,4 +1,4 @@
-package Classes;
+package com.PII.backend.Classes;
 
 import jakarta.persistence.*;
 

@@ -1,6 +1,6 @@
-package Repositories;
+package com.PII.backend.Repositories;
 
-import Classes.ImageObject;
+import com.PII.backend.Classes.ImageObject;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
